@@ -10,7 +10,7 @@ if (args.length === 0) {
 
     setTimeout(() => {
       process.stdout.write('\x07');
-      console.log(`${args[i]} seconds`)
-    }, args[i] * 1000)
-  }  
+      console.log(`${args[i]} seconds`);
+    }, args[i] * 1000);
+  }
 }
